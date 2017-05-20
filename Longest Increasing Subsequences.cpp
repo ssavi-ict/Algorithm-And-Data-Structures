@@ -199,30 +199,3 @@ int main()
 }
 
 
-// Shortest Code
-
-//vector<int>Num, Res;
-//
-//int main()
-//{
-//    int n;
-//    scanf("%d", &n);
-//    for(int i=0; i<n; i++){
-//        int x;
-//        scanf("%d", &x);
-//        Num.push_back(x);
-//    }
-//
-//    for(int i=0; i<n; i++){
-//        auto it = lower_bound(Res.begin(), Res.end(), Num[i]);
-//        if(it==Res.end()) Res.push_back(Num[i]);
-//        else *it = Num[i];
-//    }
-//
-//    printf("Length of LIS: %d\n", Res.size());
-//    for(int i=0; i<Res.size(); i++){
-//        if(i>0) printf(" -> ");
-//        printf("%d", Res[i]);
-//    }
-//}
-
